@@ -1,1 +1,24 @@
-Hello
+Digilent Nexys video kit.
+
+Oled s simple snake game.
+
+Button : 
+	bntc 	> to reset\init the display
+	bntu	> move up the snake
+	bntd	> move down the snake
+	bntl	> move left the snake
+	bntr	> move right the snake
+
+LED(s) :
+	led0	> Oled screen initialzation done
+	
+This is only for fun.
+
+change the parameter "FRESH_TIME" if you feel the speed is too fast or too slow.
+
+To start/restart the game :
+	1.push bntc to init.
+	2.push bntc again to start the game.
+
+Now the game is a simple version, so there is no body collision determination, And
+the snake can move opposite directions(It's funny becuz when you do the opposite move, the snake will look like a spring DU~ON~~).
